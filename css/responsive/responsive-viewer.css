@@ -1,0 +1,46 @@
+@media only screen and (max-width: 600px) {     
+    div#viewerWrap {
+        flex-direction: column;
+    }
+    div#title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    div#viewerYT {
+        margin: 20px 0px;
+    }
+    iframe#iframeViewer {
+        width: 80vw;
+        height: 45vw;
+    }
+    div#titleAndSpotifyWrap {
+        width: 80vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    img#spotifyImgMobile {
+        width: 35px;
+    }
+    p.computerTitle {
+        display: none;
+    }
+    div#spotify {
+        display: none;
+    }
+    div#credit {
+        text-align: center;
+        height: auto;
+        overflow-y: inherit;
+        width: 80vw;
+    }
+    a#creditTitle {
+        display: inherit;
+        font-size: 30px;
+        font-family: avenirNextMedium;
+    }
+    div#viewerInfo {
+        margin: 45px 0px 0px 0px;
+    }
+}

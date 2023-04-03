@@ -1,0 +1,94 @@
+/*-----SCROLLBAR-----*/
+::-webkit-scrollbar {
+    width: 5px !important;
+}
+/*----------*/
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+h2 {
+    width: 70vw;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+h3 {
+    font-size: 18px;
+}
+b {
+    color: rgb(150, 0, 0);
+}
+main {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: scroll;
+    padding-bottom: 50px;
+}
+section {
+    width: 80vw;
+    position: relative;
+    z-index: 9;
+    background-color: #0000004a;
+    padding: 20px;
+    border-radius: 15px;
+}
+form {
+    display: flex;
+    border: solid 1px #ffffff5e;
+    border-radius: 15px;
+    padding: 10px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: stretch;
+}
+form div {
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+}
+input[type=text], input[type=date], input[type=file], textarea {
+    color: white;
+    background-color: #2B313F;
+    padding: 5px 15px;
+    border: 0px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    resize: none;
+    margin: 10px;
+}
+input[type="submit"] {
+    color: white;
+    background-color: #4D648E;
+    padding: 5px 15px;
+    border: 0px;
+    border-radius: 20px;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    margin: 5px;
+    align-self: center;
+}
+button {
+    color: white;
+    background-color: #4D648E;
+    padding: 5px 15px;
+    border: 0px;
+    border-radius: 20px;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    margin: 5px;
+    align-self: flex-start;
+}
+textarea {
+    resize: vertical;
+}
+#bgPrev {
+    width: 150px;
+    height: auto;
+}
+h1, h2, section {
+    position: relative;
+    z-index: 3;
+}

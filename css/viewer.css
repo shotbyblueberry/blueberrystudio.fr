@@ -1,0 +1,84 @@
+div#viewerWrap {
+    position: relative;
+    z-index: 2;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#credit {
+    width: auto;
+    height: 20vw;
+    overflow-y: auto;
+}
+#iframeViewer {    
+    top: 0;
+    left: 0;
+    width: 60vw;
+    height: 33.75vw;
+    border: 0;
+}
+.title {
+    color: white;
+    font-family: avenirNextMedium;
+    font-size: 26px;
+}
+.artist {
+    color: white;
+    font-family: avenirNextUltraLight;
+    font-size: 16px;
+}
+#title {
+    display: none;
+}
+#description {
+    color: white;
+    font-family: avenirNextUltraLightItalic;
+    font-size: 16px;
+}
+.job {
+    color: white;
+    font-family: avenirNextUltraLight;
+    font-size: 10px;
+}
+.worker {
+    color: white;
+    font-family: avenirNextBold;
+    font-size: 10px;
+}
+p {
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+iframe {
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.5);
+}
+#spotifyImg {
+    width: 40px;
+}
+#spotifyTxtWrap {
+    margin-left: 15px;
+}
+.spotifyTxt {
+    font-size: 15px;
+    text-decoration: none;
+}
+#spotify {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: fit-content;
+}
+div#viewerInfo {
+    height: 32.3vw;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    justify-content: space-between;
+}
+#creditTitle {
+    display: none;
+}

@@ -1,0 +1,61 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h1 {
+    text-align: center;
+    font-size: 15px;
+    font-family: avenirNextBold;
+    letter-spacing: 1px;
+}
+input[type=text], input[type=email], input[type=tel], select, textarea {
+    color: white;
+    background-color: #2B313F;
+    width: 45%;
+    padding: 5px 15px;
+    border: 0px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    resize: none;
+    margin-top: 10px;
+    margin-right: 27.5%;
+    margin-left: 27.5%;
+    font-family: avenirNextMedium;
+}
+#firstname {
+    margin-top: 40px;
+    width: 22%;
+    margin-right: 0%;
+    float: left;
+}
+#lastname {
+    margin-top: 40px;
+    width: 22%;
+    margin-left: 0%;
+    float: right;
+}
+#project {
+    margin-top: 50px;
+}
+#send {
+    color: white;
+    background-color: #4D648E;
+    width: 8%;
+    padding: 5px 15px;
+    border: 0px;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-right: 46%;
+    margin-left: 46%;
+    font-family: avenirNextMedium;
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+#send:active {
+    opacity: 0.5;
+}
+#project {
+    height: 100px;
+}
