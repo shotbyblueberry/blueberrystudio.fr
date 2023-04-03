@@ -10,4 +10,4 @@ Website of blueberrypictures company
 www.blueberrypictures.fr
 
 ## Risky content :
-Removed contents like database password can be located with the tag : CONTENT_REMOVED_FOR_SECURITY_PURPOSES
+Removed contents like database password can be located with the tag : ```CONTENT_REMOVED_FOR_SECURITY_PURPOSES```
