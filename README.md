@@ -8,6 +8,3 @@ Website of blueberrypictures company
 
 ## Website :
 www.blueberrypictures.fr
-
-## Risky content :
-Removed contents like database password can be located with the tag : ```CONTENT_REMOVED_FOR_SECURITY_PURPOSES```
