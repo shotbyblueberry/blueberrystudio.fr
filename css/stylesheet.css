@@ -1,0 +1,60 @@
+/*----- VARIABLES -----*/
+:root {
+    --EerieBlack: #121824;
+    --Charcoal: #394951;
+    --Aero: #7BB1DF;
+    --ChineseSilver: #CDCCCC;
+}
+
+/*----- SCROLLBAR -----*/
+::-webkit-scrollbar {
+    width: 5px;
+    width: 0px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px transparent;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--ChineseSilver);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--Aero);
+}
+
+/* -----GENERAL----- */
+html {
+    overflow-x: hidden;
+    background-color: var(--EerieBlack);
+    color: var(--Black);
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    width: 100vw;
+    min-height: 100vh;
+    background-color: var(--EerieBlack);
+    font-family: 'Open-Sans', sans-serif;
+}
+
+main {
+    min-height: auto;
+    width: 100vw;
+}
+
+h1 {
+    font-size: 2.5em;
+    font-weight: 500;
+    color: white;
+}
+
+h2 {
+    font-size: 1.8em;
+    font-weight: 500;
+    color: var(--Aero);
+}
