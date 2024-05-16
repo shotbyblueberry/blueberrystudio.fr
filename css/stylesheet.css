@@ -38,13 +38,16 @@ body {
     margin: 0;
     width: 100vw;
     min-height: 100vh;
-    background-color: var(--EerieBlack);
+    background-color: var(--ChineseSilver);
     font-family: 'Open-Sans', sans-serif;
 }
 
 main {
-    min-height: auto;
+    min-height: 100vh;
     width: 100vw;
+    background: var(--EerieBlack);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 
 h1 {

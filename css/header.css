@@ -1,0 +1,28 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px;
+    padding-right: 200px;
+    background-color: var(--EerieBlack);
+}
+
+header img {
+    width: 100px;
+    height: auto;
+}
+
+#headerMenu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+#headerMenu>* {
+    transition: ease-in-out 0.25s;
+    color: white;
+    text-decoration: none;
+}
+
+#headerMenu>a:not(:first-child) {
+    display: none;
+}

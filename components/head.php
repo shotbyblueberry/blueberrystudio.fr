@@ -21,6 +21,7 @@ $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : 'en';
 <!-- JavaScript -->
 <script src="js/lang.js" defer></script>
 <script src="js/dynamicTitle.js" defer></script>
+<script src="js/header.js" defer></script>
 <!-- Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
