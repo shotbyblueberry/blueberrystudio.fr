@@ -1,9 +1,19 @@
 header {
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    width: 100vw;
     display: flex;
     justify-content: space-between;
-    padding: 50px 100px;
-    padding-right: 200px;
-    background-color: var(--EerieBlack);
+    padding: 50px 0;
+}
+
+header>*:first-child {
+    padding-left: 100px;
+}
+
+header>*:last-child {
+    padding-right: 100px;
 }
 
 header img {

@@ -1,0 +1,67 @@
+section {
+    background-color: var(--EerieBlack);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+section>*:not(.backgroundImg) {
+    z-index: 1;
+}
+
+section:last-child {
+    background-color: var(--Aero);
+}
+
+.backgroundImg {
+    position: absolute;
+    display: flex;
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+}
+
+.arrowWrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.arrowWrap>*:first-child,
+.arrowWrap>*:last-child {
+    width: 30vw;
+}
+
+.nextArrow {
+    width: 5vw;
+    height: auto;
+}
+
+/*-----Section1-----*/
+section:nth-child(1)>.backgroundImg {
+    top: 0;
+}
+
+/*-----Section2-----*/
+section:nth-child(2)>.backgroundImg {
+    top: 100vh;
+}
+
+/*-----Section3-----*/
+section:nth-child(3)>.backgroundImg {
+    top: 200vh;
+}
+
+/*-----Section4-----*/
+section:nth-child(4)>.backgroundImg {
+    top: 300vh;
+}
+
+section:nth-child(4) {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}

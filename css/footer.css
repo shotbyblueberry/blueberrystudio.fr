@@ -12,8 +12,17 @@ footer a {
     font-size: 0.6rem;
 }
 
+footer>div:last-child {
+    display: flex;
+    justify-content: flex-end;
+}
+
 footer select {
     cursor: pointer;
     background-color: transparent;
     border: none;
+}
+
+footer>*:first-child, footer>*:last-child {
+    width: 30vw;
 }
