@@ -6,7 +6,11 @@
     <a> | </a>
     <a href="sitemap.xml"><?php getValueFromJson('sitemap') ?></a>
 </div>
-<select id="lang">
-    <option value="en" <?php if ($_SESSION['lang'] == 'en') echo 'selected'; ?>>🇬🇧</option>
-    <option value="fr" <?php if ($_SESSION['lang'] == 'fr') echo 'selected'; ?>>🇫🇷</option>
-</select>
+<div>
+    <select id="lang">
+        <option value="en" <?php if ($_SESSION['lang'] == 'en')
+            echo 'selected'; ?>>🇬🇧</option>
+        <option value="fr" <?php if ($_SESSION['lang'] == 'fr')
+            echo 'selected'; ?>>🇫🇷</option>
+    </select>
+</div>
