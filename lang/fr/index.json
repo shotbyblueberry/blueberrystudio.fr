@@ -1,3 +1,6 @@
 {
-    "tabTitle": "Blueberry"
+    "tabTitle": "Blueberry",
+    "section1": {
+        "about": "A Propos"
+    }
 }

@@ -1,3 +1,35 @@
 {
-    "tabTitle": "Blueberry"
+    "tabTitle": "Blueberry",
+    "section1": {
+        "title": "Focus on your music",
+        "text": "We make your video.",
+        "about": "About this image"
+    },
+    "section2": {
+        "title": "Latest work",
+        "subTitle": "Rose Thorn - Universe",
+        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam.",
+        "more": "Watch more videos"
+    },
+    "section3": {
+        "title": "What is Blueberry Pictures?",
+        "subtitle": "Bring your music to a million eyes...",
+        "paragraph1":"Text giga long",
+        "paragraph2":"Text giga long",
+        "paragraph3":"Text giga long",
+        "paragraph4":"Text giga long"
+    },
+    "section4": {
+        "title": "Ready to work with us?",
+        "subtitle": "It's time to level up your game",
+        "text1": "Contact Blueberry Pictures today to discuss your upcoming music video project.",
+        "text2": "Let us create a visual masterpiece that amplifies your music, expands your fanbase, and opens new doors of opportunity.",
+        "text3": "Together, we'll make your music shine in the spotlight.",
+        "form": {
+            "name": "Full name",
+            "email": "Email",
+            "message": "Music video enquiry",
+            "submit": "Send"
+        }
+    }
 }
