@@ -38,8 +38,9 @@ section:last-child {
 }
 
 .nextArrow {
-    width: 5vw;
+    width: 2vw;
     height: auto;
+    margin-bottom: 3vh;
 }
 
 /*-----Section1-----*/

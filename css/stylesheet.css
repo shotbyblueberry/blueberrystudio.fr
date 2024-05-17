@@ -39,7 +39,6 @@ body {
     width: 100vw;
     min-height: 100vh;
     background-color: var(--ChineseSilver);
-    font-family: 'Open-Sans', sans-serif;
 }
 
 main {
@@ -54,6 +53,7 @@ h1 {
     font-size: 2.5em;
     font-weight: 500;
     color: white;
+    font-family: 'Eloquent JF Pro Regular';
 }
 
 h2 {
@@ -61,8 +61,10 @@ h2 {
     font-weight: 500;
     color: var(--Aero);
     text-transform: uppercase;
+    font-family: 'Zuume Bold';
 }
 
-a {
+a, p {
     color: white;
+    font-family: 'Avenir Next';
 }
