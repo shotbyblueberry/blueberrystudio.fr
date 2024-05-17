@@ -31,7 +31,7 @@ $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : 'en';
                     <a><?php getValueFromJson('section1.about'); ?></a>
                 <img src="https://placehold.co/32x32/white/black" alt="About">
                 </div>
-                <img class="nextArrow" src="https://placehold.co/64x64/white/black" alt="Next">
+                <img class="nextArrow" src="assets/img/icons/scrollDown.svg" alt="Next">
                 <div></div>
             </div>
             <img class="backgroundImg" src="https://placehold.co/1280x720/teal/white" alt="Wallpaper">
@@ -47,12 +47,12 @@ $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : 'en';
             </div>
             <div class="arrowWrap">
                 <div></div>
-                <img class="nextArrow" src="https://placehold.co/64x64/white/black" alt="Next">
+                <img class="nextArrow" src="assets/img/icons/scrollDown.svg" alt="Next">
                 <div>
                     <a><?php getValueFromJson('section2.more'); ?></a>
                 </div>
             </div>
-            <img class="backgroundImg" src="https://placehold.co/1280x720/orange/white" alt="Wallpaper">
+            <img class="backgroundImg" src="assets/img/backgroundSection2.svg" alt="Wallpaper">
         </section>
         <!-- Section 3 -->
         <section>
@@ -68,7 +68,7 @@ $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : 'en';
             </div>
             <div class="arrowWrap">
                 <div></div>
-                <img class="nextArrow" src="https://placehold.co/64x64/white/black" alt="Next">
+                <img class="nextArrow" src="assets/img/icons/scrollDown.svg" alt="Next">
                 <div></div>
             </div>
             <img class="backgroundImg" src="https://placehold.co/1280x720/green/white" alt="Wallpaper">
