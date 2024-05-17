@@ -46,6 +46,26 @@ section:nth-child(1)>.backgroundImg {
     top: 0;
 }
 
+section:nth-child(1) {
+    justify-content: flex-end;
+}
+
+section:nth-child(1)>div:first-of-type,
+section:nth-child(1)>div:last-of-type {
+    margin-left: 5vh;
+}
+
+section:nth-child(1)>div:nth-of-type(2) {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5vh;
+}
+
+.arrowWrap>div {
+    display: flex;
+    align-items: center;
+}
+
 /*-----Section2-----*/
 section:nth-child(2)>.backgroundImg {
     top: 100vh;

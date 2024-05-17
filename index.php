@@ -28,6 +28,7 @@ $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : 'en';
             <div class="arrowWrap">
                 <div>
                     <a><?php getValueFromJson('section1.about'); ?></a>
+                <img src="https://placehold.co/32x32/white/black" alt="About">
                 </div>
                 <img class="nextArrow" src="https://placehold.co/64x64/white/black" alt="Next">
                 <div></div>
@@ -38,7 +39,9 @@ $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : 'en';
             <div>
                 <h1><?php getValueFromJson('section2.title'); ?></h1>
             </div>
-            <div></div>
+            <div>
+
+            </div>
             <div class="arrowWrap">
                 <div></div>
                 <img class="nextArrow" src="https://placehold.co/64x64/white/black" alt="Next">
