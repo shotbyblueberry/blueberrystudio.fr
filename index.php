@@ -79,6 +79,7 @@ $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : 'en';
                 <h1><?php getValueFromJson('section4.title'); ?></h1>
             </div>
             <div>
+                <h2><?php getValueFromJson('section4.subtitle'); ?></h2>
                 <a><?php getValueFromJson('section4.text1'); ?></a>
                 <a><?php getValueFromJson('section4.text2'); ?></a>
                 <a><?php getValueFromJson('section4.text3'); ?></a>

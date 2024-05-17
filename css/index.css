@@ -105,4 +105,38 @@ section:nth-child(4)>.backgroundImg {
 section:nth-child(4) {
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
+    display: flex;
+    align-items: center;
+}
+
+section:nth-child(4)>div:first-of-type {
+    margin-top: 5vh;
+}
+
+section:nth-child(4)>div:nth-of-type(2) {
+    max-width: 60vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section:nth-child(4)>form {
+    height: 100%;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+}
+
+input:not(input[type="submit"]), textarea {
+    background-color: transparent;
+    border: none;
+    border-bottom: solid 1px white;
+}
+
+input[type="submit"] {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
 }
