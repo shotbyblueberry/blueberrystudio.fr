@@ -18,6 +18,7 @@ $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : 'en';
         <?php include ('components/header.php'); ?>
     </header>
     <main>
+        <!-- Section 1 -->
         <section>
             <div>
                 <h1><?php getValueFromJson('section1.title'); ?></h1>
@@ -35,20 +36,25 @@ $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : 'en';
             </div>
             <img class="backgroundImg" src="https://placehold.co/1280x720/teal/white" alt="Wallpaper">
         </section>
+        <!-- Section 2 -->
         <section>
             <div>
                 <h1><?php getValueFromJson('section2.title'); ?></h1>
             </div>
             <div>
-
+                <h2><?php getValueFromJson('section2.subtitle'); ?></h2>
+                <p><?php getValueFromJson('section2.paragraph'); ?></p>
             </div>
             <div class="arrowWrap">
                 <div></div>
                 <img class="nextArrow" src="https://placehold.co/64x64/white/black" alt="Next">
-                <div></div>
+                <div>
+                    <a><?php getValueFromJson('section2.more'); ?></a>
+                </div>
             </div>
             <img class="backgroundImg" src="https://placehold.co/1280x720/orange/white" alt="Wallpaper">
         </section>
+        <!-- Section 3 -->
         <section>
             <div>
                 <h1><?php getValueFromJson('section3.title'); ?></h1>
@@ -61,6 +67,7 @@ $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : 'en';
             </div>
             <img class="backgroundImg" src="https://placehold.co/1280x720/green/white" alt="Wallpaper">
         </section>
+        <!-- Section 4 -->
         <section>
             <div>
                 <h1><?php getValueFromJson('section4.title'); ?></h1>
