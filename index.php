@@ -59,7 +59,13 @@ $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : 'en';
             <div>
                 <h1><?php getValueFromJson('section3.title'); ?></h1>
             </div>
-            <div></div>
+            <div>
+                <h2><?php getValueFromJson('section3.subtitle'); ?></h2>
+                <p><?php getValueFromJson('section3.paragraph1'); ?></p>
+                <p><?php getValueFromJson('section3.paragraph2'); ?></p>
+                <p><?php getValueFromJson('section3.paragraph3'); ?></p>
+                <p><?php getValueFromJson('section3.paragraph4'); ?></p>
+            </div>
             <div class="arrowWrap">
                 <div></div>
                 <img class="nextArrow" src="https://placehold.co/64x64/white/black" alt="Next">

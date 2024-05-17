@@ -10,6 +10,7 @@ section {
 
 section>*:not(.backgroundImg) {
     z-index: 1;
+    margin: 0 5vw;
 }
 
 section:last-child {
@@ -50,15 +51,9 @@ section:nth-child(1) {
     justify-content: flex-end;
 }
 
-section:nth-child(1)>div:first-of-type,
-section:nth-child(1)>div:last-of-type {
-    margin-left: 5vh;
-}
-
 section:nth-child(1)>div:nth-of-type(2) {
     display: flex;
     justify-content: flex-end;
-    margin-right: 5vh;
 }
 
 .arrowWrap>div {
@@ -73,13 +68,11 @@ section:nth-child(2)>.backgroundImg {
 
 section:nth-child(2)>div:first-of-type {
     margin-top: 15vh;
-    margin-left: 5vw;
 }
 
 section:nth-child(2)>div:nth-of-type(2) {
     display: flex;
     flex-direction: column;
-    margin-left: 5vw;
 }
 
 section:nth-child(2)>div:nth-of-type(2)>p {
@@ -87,7 +80,6 @@ section:nth-child(2)>div:nth-of-type(2)>p {
 }
 
 .arrowWrap>div:last-of-type {
-    margin-right: 5vw;
     display: flex;
     justify-content: flex-end;
 }
@@ -95,6 +87,14 @@ section:nth-child(2)>div:nth-of-type(2)>p {
 /*-----Section3-----*/
 section:nth-child(3)>.backgroundImg {
     top: 200vh;
+}
+
+section:nth-child(3)>div:first-of-type {
+    margin-top: 15vh;
+}
+
+section:nth-child(3)>div:nth-of-type(2) {
+    height: 100%;
 }
 
 /*-----Section4-----*/
