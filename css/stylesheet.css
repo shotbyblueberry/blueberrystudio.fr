@@ -60,4 +60,5 @@ h2 {
     font-size: 1.8em;
     font-weight: 500;
     color: var(--Aero);
+    text-transform: uppercase;
 }
