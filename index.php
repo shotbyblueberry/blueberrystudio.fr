@@ -29,14 +29,38 @@ $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : 'en';
             <div class="arrowWrap">
                 <div>
                     <a><?php getValueFromJson('section1.about'); ?></a>
-                <img src="https://placehold.co/32x32/white/black" alt="About">
+                    <img src="assets/img/icons/about.svg" alt="About">
                 </div>
                 <img class="nextArrow" src="assets/img/icons/scrollDown.svg" alt="Next">
                 <div></div>
             </div>
-            <img class="backgroundImg" src="https://placehold.co/1280x720/teal/white" alt="Wallpaper">
+            <img class="backgroundImg" src="assets/img/backgroundSection1.webp" alt="Wallpaper">
         </section>
         <!-- Section 2 -->
+        <section>
+            <div>
+                <img src="assets/img/icons/openQuote.svg" alt="Quote Mark">
+                <a>
+                    <?php getValueFromJson('section2.djebrilOpinion'); ?>
+                    <img src="assets/img/icons/closeQuote.svg" alt="Quote Mark">
+                </a>
+            </div>
+            <div>
+                <h1><?php getValueFromJson('section3.title'); ?></h1>
+                <h2><?php getValueFromJson('section3.subtitle'); ?></h2>
+                <p><?php getValueFromJson('section3.paragraph1'); ?></p>
+                <p><?php getValueFromJson('section3.paragraph2'); ?></p>
+                <p><?php getValueFromJson('section3.paragraph3'); ?></p>
+                <p><?php getValueFromJson('section3.paragraph4'); ?></p>
+            </div>
+            <div class="arrowWrap">
+                <div></div>
+                <img class="nextArrow" src="assets/img/icons/scrollDown.svg" alt="Next">
+                <div></div>
+            </div>
+            <img class="backgroundImg" src="assets/img/backgroundSection2.svg" alt="Wallpaper">
+        </section>
+        <!-- Section 3 -->
         <section>
             <div>
                 <h1><?php getValueFromJson('section2.title'); ?></h1>
@@ -49,29 +73,11 @@ $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : 'en';
                 <div></div>
                 <img class="nextArrow" src="assets/img/icons/scrollDown.svg" alt="Next">
                 <div>
-                    <a><?php getValueFromJson('section2.more'); ?></a>
+                    <a
+                        href="https://www.youtube.com/watch?v=9x2ivqttlLI"><?php getValueFromJson('section2.more'); ?></a>
                 </div>
             </div>
-            <img class="backgroundImg" src="assets/img/backgroundSection2.svg" alt="Wallpaper">
-        </section>
-        <!-- Section 3 -->
-        <section>
-            <div>
-                <h1><?php getValueFromJson('section3.title'); ?></h1>
-            </div>
-            <div>
-                <h2><?php getValueFromJson('section3.subtitle'); ?></h2>
-                <p><?php getValueFromJson('section3.paragraph1'); ?></p>
-                <p><?php getValueFromJson('section3.paragraph2'); ?></p>
-                <p><?php getValueFromJson('section3.paragraph3'); ?></p>
-                <p><?php getValueFromJson('section3.paragraph4'); ?></p>
-            </div>
-            <div class="arrowWrap">
-                <div></div>
-                <img class="nextArrow" src="assets/img/icons/scrollDown.svg" alt="Next">
-                <div></div>
-            </div>
-            <img class="backgroundImg" src="https://placehold.co/1280x720/green/white" alt="Wallpaper">
+            <img class="backgroundImg" src="assets/img/backgroundSection3.webp" alt="Wallpaper">
         </section>
         <!-- Section 4 -->
         <section>
@@ -90,7 +96,7 @@ $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : 'en';
                 <textarea placeholder="<?php getValueFromJson('section4.form.message'); ?>"></textarea>
                 <input type="submit" value="<?php getValueFromJson('section4.form.submit'); ?>">
             </form>
-            <img class="backgroundImg" src="https://placehold.co/1280x720/pink/white" alt="Wallpaper">
+            <!-- <img class="backgroundImg" src="https://placehold.co/1280x720/pink/white" alt="Wallpaper"> -->
         </section>
     </main>
     <footer>
