@@ -10,7 +10,7 @@ section {
 
 section>*:not(.backgroundImg) {
     z-index: 1;
-    margin: 0 5vw;
+    margin: 0 20vw;
 }
 
 .backgroundImg {
@@ -44,6 +44,10 @@ section:nth-child(1)>.backgroundImg {
     top: 0;
 }
 
+section:nth-child(1) h1 {
+    text-transform: uppercase;
+}
+
 section:nth-child(1) {
     justify-content: flex-end;
 }
@@ -51,6 +55,16 @@ section:nth-child(1) {
 section:nth-child(1)>div:nth-of-type(2) {
     display: flex;
     justify-content: flex-end;
+    margin-bottom: 200px;
+}
+
+section:nth-child(1)>div:nth-of-type(2)>a {
+    font-family: 'Six Hands Brush';
+    font-size: 3rem;
+}
+
+#aboutThisImage>* {
+    display: none;
 }
 
 .arrowWrap>div {
