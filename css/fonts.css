@@ -17,3 +17,8 @@
     font-family: 'Eloquent JF Pro Regular';
     src: url('/assets/fonts/Eloquent\ JF\ Pro\ Regular.otf') format('opentype');
 }
+
+@font-face {
+    font-family: 'Myriad Pro Regular';
+    src: url('/assets/fonts/MyriadPro-Regular.otf') format('opentype');
+}
