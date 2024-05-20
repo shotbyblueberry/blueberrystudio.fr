@@ -27,7 +27,7 @@ $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : 'en';
                 <a><?php getValueFromJson('section1.text') ?></a>
             </div>
             <div class="arrowWrap">
-                <div>
+                <div id="aboutThisImage">
                     <a><?php getValueFromJson('section1.about'); ?></a>
                     <img src="assets/img/icons/about.svg" alt="About">
                 </div>
