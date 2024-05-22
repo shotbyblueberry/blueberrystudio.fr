@@ -36,3 +36,7 @@ header img {
 #headerMenu>a:not(:first-child) {
     display: none;
 }
+
+#telHeaderMenu {
+    display: none;
+}

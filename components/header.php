@@ -7,3 +7,6 @@
     <a href="#"><?php getValueFromJson('blog'); ?></a>
     <a href="#"><?php getValueFromJson('contact'); ?></a>
 </div>
+<div id="telHeaderMenu">
+    <a><img src="assets/img/icons/phoneMenu.svg"></a>
+</div>

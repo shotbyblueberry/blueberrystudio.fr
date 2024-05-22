@@ -11,6 +11,7 @@ $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : 'en';
     <title><?php getValueFromJson('tabTitle'); ?></title>
     <?php include 'components/head.php'; ?>
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/responsive/index.css">
 </head>
 
 <body>
@@ -64,6 +65,12 @@ $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : 'en';
         <section>
             <div>
                 <h1><?php getValueFromJson('section2.title'); ?></h1>
+            </div>
+            <div id="youtubeWrap">
+                <iframe src="https://www.youtube.com/embed/9x2ivqttlLI?si=0U2y8ZG2hTxfrWdv&amp;controls=0"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
             <div>
                 <h2><?php getValueFromJson('section2.subtitle'); ?></h2>

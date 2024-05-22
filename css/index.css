@@ -130,6 +130,10 @@ section:nth-child(3)>div:nth-of-type(2) {
     flex-direction: column;
 }
 
+#youtubeWrap {
+    display: none;
+}
+
 section:nth-child(3)>div:nth-of-type(2)>p {
     max-width: 35vw;
 }
