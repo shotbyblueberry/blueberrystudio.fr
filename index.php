@@ -103,7 +103,6 @@ $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : 'en';
                 <textarea placeholder="<?php getValueFromJson('section4.form.message'); ?>"></textarea>
                 <input type="submit" value="<?php getValueFromJson('section4.form.submit'); ?>">
             </form>
-            <!-- <img class="backgroundImg" src="https://placehold.co/1280x720/pink/white" alt="Wallpaper"> -->
         </section>
     </main>
     <footer>
