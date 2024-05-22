@@ -1,0 +1,36 @@
+{
+    "tabTitle": "Blueberry",
+    "section1": {
+        "title": "Concentrez-vous sur votre musique",
+        "text": "Nous réalisons votre vidéo.",
+        "about": "À propos de cette image"
+    },
+    "section2": {
+        "title": "Derniers travaux",
+        "subtitle": "Azelma - Prométhée",
+        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam.",
+        "more": "Regardez plus de vidéos",
+        "djebrilOpinion": "Blueberry a le sens du professionnalisme et du détail, c’est vraiment un plaisir de développer et de mettre en oeuvre artistiquement mes projets en leur compagnie. Mention à mon tout premier clip «  Le Temps » auquel Mateo et son équipe ont apporté une qualité exceptionnelle à la hauteur de mes exigences. Let the show begin…"
+    },
+    "section3": {
+        "title": "Qu'est-ce que<br>Blueberry Pictures ?",
+        "subtitle": "Faites connaître votre musique à des millions de personnes...",
+        "paragraph1": "Blueberry Pictures est votre société de production vidéo de référence pour des clips musicaux extraordinaires. En tant que spécialistes de ce domaine, nous sommes passionnés par l'aide aux artistes indépendants pour promouvoir leur musique avec des visuels de haute qualité et abordables qui laissent une impression durable.",
+        "paragraph2": "Notre mission est d'être votre partenaire créatif dans votre parcours musical. Avec un focus exclusif sur les clips musicaux, nous apportons une expertise inégalée et une compréhension profonde du médium. En combinant nos compétences en narration avec votre son unique, nous produisons des œuvres d'art visuellement époustouflantes qui résonnent avec votre public.",
+        "paragraph3": "Ce qui nous distingue, c'est notre engagement à offrir une expérience complète. Nous avons des partenariats précieux avec des photographes, des créateurs de contenu et des graphistes, ce qui nous permet de créer des pochettes d'album et des visuels saisissants qui renforcent votre marque. Nous collaborons également avec des managers d'artistes qui peuvent vous guider à travers les subtilités de l'industrie musicale, garantissant une approche holistique de votre succès.",
+        "paragraph4": "Chez Blueberry Pictures, nous croyons en la création d'un environnement convivial et collaboratif. Nous accordons la priorité à l'établissement de liens personnels avec nos artistes, en travaillant en étroite collaboration avec vous pour donner vie à votre vision tout en y ajoutant notre expertise créative. Notre objectif est de rendre le processus de production agréable et sans stress."
+    },
+    "section4": {
+        "title": "Prêt à travailler avec nous ?",
+        "subtitle": "Il est temps de passer à la vitesse supérieure",
+        "text1": "Contactez Blueberry Pictures dès aujourd'hui pour discuter de votre prochain projet de clip musical.",
+        "text2": "Laissez-nous créer un chef-d'œuvre visuel qui amplifie votre musique, élargit votre base de fans et ouvre de nouvelles opportunités.",
+        "text3": "Ensemble, nous ferons briller votre musique sous les projecteurs.",
+        "form": {
+            "name": "Nom complet",
+            "email": "Email",
+            "message": "Demande de clip musical",
+            "submit": "Envoyer"
+        }
+    }
+}

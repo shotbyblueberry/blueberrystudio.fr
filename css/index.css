@@ -1,0 +1,203 @@
+section {
+    background-color: var(--EerieBlack);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+section>*:not(.backgroundImg) {
+    z-index: 1;
+    margin: 0 20vw;
+}
+
+.backgroundImg {
+    position: absolute;
+    display: flex;
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+}
+
+.arrowWrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.arrowWrap>*:first-child,
+.arrowWrap>*:last-child {
+    width: 30vw;
+}
+
+.nextArrow {
+    width: 2vw;
+    height: auto;
+    margin-bottom: 3vh;
+}
+
+/*-----Section1-----*/
+section:nth-child(1)>.backgroundImg {
+    top: 0;
+}
+
+section:nth-child(1) h1 {
+    text-transform: uppercase;
+}
+
+section:nth-child(1) {
+    justify-content: flex-end;
+}
+
+section:nth-child(1)>div:nth-of-type(2) {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 200px;
+}
+
+section:nth-child(1)>div:nth-of-type(2)>a {
+    font-family: 'Six Hands Brush';
+    font-size: 3rem;
+}
+
+#aboutThisImage>* {
+    display: none;
+}
+
+.arrowWrap>div {
+    display: flex;
+    align-items: center;
+}
+
+.arrowWrap>div:first-of-type>img {
+    width: 20px;
+    height: auto;
+    margin-left: 10px;
+}
+
+/*-----Section2-----*/
+section:nth-child(2)>.backgroundImg {
+    top: 100vh;
+}
+
+section:nth-child(2)>div:first-of-type {
+    margin-top: 15vh;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/*Quote*/
+section:nth-child(2)>div:first-of-type>a {
+    font-family: 'Six Hands Brush';
+    font-size: 1.6rem;
+    width: 25vw;
+}
+
+/*OpenQUote*/
+section:nth-child(2)>div:first-of-type>img {
+    width: 40px;
+    height: 40px;
+}
+
+/*CloseQuote*/
+section:nth-child(2)>div:first-of-type>a>img {
+    width: 20px;
+}
+
+section:nth-child(2)>div:nth-of-type(2) {
+    height: 100%;
+}
+
+section:nth-child(2)>div>p {
+    width: 40vw;
+    font-size: 0.8rem;
+}
+
+/*-----Section3-----*/
+section:nth-child(3)>.backgroundImg {
+    top: 200vh;
+}
+
+section:nth-child(3)>div:first-of-type {
+    margin-top: 15vh;
+}
+
+section:nth-child(3)>div:nth-of-type(2) {
+    display: flex;
+    flex-direction: column;
+}
+
+#youtubeWrap {
+    display: none;
+}
+
+section:nth-child(3)>div:nth-of-type(2)>p {
+    max-width: 35vw;
+}
+
+.arrowWrap>div:last-of-type {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/*-----Section4-----*/
+section:nth-child(4)>.backgroundImg {
+    top: 300vh;
+}
+
+section:nth-child(4) {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: flex;
+    align-items: center;
+}
+
+section:nth-child(4)>div:first-of-type {
+    margin-top: 5vh;
+}
+
+section:nth-child(4)>div:nth-of-type(2) {
+    max-width: 60vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+section:nth-child(4)>form {
+    height: 100%;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+}
+
+input:not(input[type="submit"]),
+textarea {
+    background-color: transparent;
+    border: none;
+    border-bottom: solid 1px white;
+    margin: 15px 0px;
+    color: white;
+}
+
+input:not(input[type="submit"])::placeholder,
+textarea::placeholder {
+    color: white;
+}
+
+input[type="submit"] {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    color: white;
+    margin-top: 100px;
+}
+
+textarea {
+    resize: vertical;
+}

@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Avenir Next';
+    src: url('/assets/fonts/Avenir\ Next.ttc') format('truetype');
+}
+
+@font-face {
+    font-family: 'Zuume Bold';
+    src: url('/assets/fonts/Zuume\ Bold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Six Hands Brush';
+    src: url('/assets/fonts/Six\ Hands\ Brush.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Eloquent JF Pro Regular';
+    src: url('/assets/fonts/Eloquent\ JF\ Pro\ Regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Myriad Pro Regular';
+    src: url('/assets/fonts/MyriadPro-Regular.otf') format('opentype');
+}
