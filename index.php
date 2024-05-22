@@ -97,10 +97,10 @@ $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : 'en';
                 <a><?php getValueFromJson('section4.text2'); ?></a>
                 <a><?php getValueFromJson('section4.text3'); ?></a>
             </div>
-            <form>
-                <input type="text" placeholder="<?php getValueFromJson('section4.form.name'); ?>">
-                <input type="email" placeholder="<?php getValueFromJson('section4.form.email'); ?>">
-                <textarea placeholder="<?php getValueFromJson('section4.form.message'); ?>"></textarea>
+            <form action="scripts/contactForm.php" method="POST">
+                <input type="text" name="name" placeholder="<?php getValueFromJson('section4.form.name'); ?>">
+                <input type="email" name="email" placeholder="<?php getValueFromJson('section4.form.email'); ?>">
+                <textarea name="message" placeholder="<?php getValueFromJson('section4.form.message'); ?>"></textarea>
                 <input type="submit" value="<?php getValueFromJson('section4.form.submit'); ?>">
             </form>
         </section>
