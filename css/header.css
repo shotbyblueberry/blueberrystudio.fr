@@ -12,7 +12,7 @@ header>*:first-child {
     padding-left: 100px;
 }
 
-header>*:last-child {
+header>#headerMenu {
     padding-right: 100px;
 }
 
