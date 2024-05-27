@@ -2,11 +2,11 @@
     section {
         min-height: 100vh;
         height: auto;
+        padding: 0 5vw;
     }
 
     section>*:not(.backgroundImg) {
         z-index: 1;
-        margin: 0 5vw;
     }
 
     .arrowWrap {
@@ -55,10 +55,6 @@
     }
 
     /*Section 3*/
-    section:nth-child(3)>.backgroundImg {
-        top: 200vh;
-    }
-
     section:nth-child(3)>div:first-of-type {
         margin-top: 5vh;
     }
@@ -78,10 +74,6 @@
     }
 
     /*Section 4*/
-    section:nth-child(4)>.backgroundImg {
-        top: 300vh;
-    }
-
     section:nth-child(4)>div:nth-of-type(2)>a {
         display: none;
     }
