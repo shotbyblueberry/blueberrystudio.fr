@@ -11,3 +11,6 @@
 
 # Git
 .gitattributes
+
+# Debug
+debug.php
