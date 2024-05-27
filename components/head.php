@@ -1,7 +1,11 @@
 <!--Développé avec ❤️ par : www.noasecond.com-->
 <?php
 session_start();
-$lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : 'en';
+
+//Language
+$language = $_SERVER['HTTP_ACCEPT_LANGUAGE'];
+$deviceLang = substr($language, 0, 2);
+$lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : $deviceLang;
 ?>
 
 <!-- Meta Tags -->
