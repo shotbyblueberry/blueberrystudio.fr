@@ -5,7 +5,10 @@ session_start();
 //Language
 $language = $_SERVER['HTTP_ACCEPT_LANGUAGE'];
 $deviceLang = substr($language, 0, 2);
-$lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : $deviceLang;
+if (!isset($_SESSION['lang'])) {
+    $_SESSION['lang'] = $deviceLang;
+}
+$lang = $_SESSION['lang'];
 ?>
 
 <!-- Meta Tags -->
