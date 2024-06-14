@@ -1,5 +1,5 @@
 ---
-name: UI/UX improvement
+name: "\U0001F484 UI/UX improvement"
 about: Report an issue related to UI or UX
 title: "\U0001F484 Title"
 labels: UI/UX
