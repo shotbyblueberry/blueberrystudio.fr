@@ -47,12 +47,12 @@ $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : 'en';
                 </a>
             </div>
             <div>
-                <h1><?php getValueFromJson('section3.title'); ?></h1>
-                <h2><?php getValueFromJson('section3.subtitle'); ?></h2>
-                <p><?php getValueFromJson('section3.paragraph1'); ?></p>
-                <p><?php getValueFromJson('section3.paragraph2'); ?></p>
-                <p><?php getValueFromJson('section3.paragraph3'); ?></p>
-                <p><?php getValueFromJson('section3.paragraph4'); ?></p>
+                <h1><?php getValueFromJson('section2.title'); ?></h1>
+                <h2><?php getValueFromJson('section2.subtitle'); ?></h2>
+                <p><?php getValueFromJson('section2.paragraph1'); ?></p>
+                <p><?php getValueFromJson('section2.paragraph2'); ?></p>
+                <p><?php getValueFromJson('section2.paragraph3'); ?></p>
+                <p><?php getValueFromJson('section2.paragraph4'); ?></p>
             </div>
             <div class="arrowWrap">
                 <div></div>
@@ -64,7 +64,7 @@ $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : 'en';
         <!-- Section 3 -->
         <section>
             <div>
-                <h1><?php getValueFromJson('section2.title'); ?></h1>
+                <h1><?php getValueFromJson('section3.title'); ?></h1>
             </div>
             <div id="youtubeWrap">
                 <iframe src="https://www.youtube.com/embed/9x2ivqttlLI?si=0U2y8ZG2hTxfrWdv&amp;controls=0"
@@ -73,8 +73,8 @@ $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : 'en';
                     referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
             <div>
-                <h2><?php getValueFromJson('section2.subtitle'); ?></h2>
-                <p><?php getValueFromJson('section2.paragraph'); ?></p>
+                <h2><?php getValueFromJson('section3.subtitle'); ?></h2>
+                <p><?php getValueFromJson('section3.paragraph'); ?></p>
             </div>
             <div class="arrowWrap">
                 <div></div>
