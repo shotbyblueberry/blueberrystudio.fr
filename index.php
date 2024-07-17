@@ -81,7 +81,7 @@ $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : 'en';
                 <img class="nextArrow" src="assets/img/icons/scrollDown.svg" alt="Next">
                 <div>
                     <a
-                        href="https://www.youtube.com/watch?v=9x2ivqttlLI"><?php getValueFromJson('section2.more'); ?></a>
+                        href="https://www.youtube.com/watch?v=9x2ivqttlLI"><?php getValueFromJson('section3.more'); ?></a>
                 </div>
             </div>
             <img class="backgroundImg" src="assets/img/backgroundSection3.webp" alt="Wallpaper">
