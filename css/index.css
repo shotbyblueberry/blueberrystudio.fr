@@ -1,3 +1,15 @@
+body {
+    height: 100vh;
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+}
+
+body>*,
+main>* {
+    scroll-snap-align: start;
+}
+
 section {
     position: relative;
     overflow: hidden;
@@ -114,6 +126,12 @@ section:nth-child(2)>div:nth-of-type(2) {
 section:nth-child(2)>div>p {
     width: 40vw;
     font-size: 0.8rem;
+    color: #d4d4d4;
+    text-align: justify;
+}
+
+section:nth-child(2)>div>p:last-of-type {
+    margin-bottom: 40px;
 }
 
 /*-----Section3-----*/
@@ -126,7 +144,7 @@ section:nth-child(3)>div:nth-of-type(2) {
     flex-direction: column;
 }
 
-#youtubeWrap {
+#youtubeWrap>* {
     display: none;
 }
 

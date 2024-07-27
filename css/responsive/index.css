@@ -65,6 +65,7 @@
     }
 
     #youtubeWrap>* {
+        display: inherit;
         width: 90vw;
         height: 50vw;
     }

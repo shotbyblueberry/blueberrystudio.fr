@@ -14,6 +14,7 @@ header>*:first-child {
 
 header>#headerMenu {
     padding-right: 100px;
+    display: none;
 }
 
 header img {
