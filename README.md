@@ -1,10 +1,10 @@
-# blueberrypictures.fr
+# blueberrystudio.fr
 
 <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=html,css,php,mysql,js,svg,git,github,githubactions,vscode"/>
 </a>
 
-This repository contains the source code for the blueberrypictures.fr website.
+This repository contains the source code for the main [website](https://blueberrystudio.fr).
 
 Uses [PHPMailer-6.9.1](https://github.com/PHPMailer/PHPMailer)
 
@@ -17,7 +17,7 @@ Uses [AutoDeployToFTP-v1.0](https://github.com/YoruKiwi/AutoDeployToFTP)
 To install and run the website locally, follow these steps:
 
 1. Clone the repository: `git clone https://github.com/your-username/aima-developpement.fr.git`
-2. Navigate to the project directory: `cd blueberrypictures.fr`
+2. Navigate to the project directory: `cd blueberrystudio.fr`
 
 ## Usage
 
