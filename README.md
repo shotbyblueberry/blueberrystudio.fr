@@ -8,9 +8,9 @@ This repository contains the source code for the main [website](https://blueberr
 
 Uses [PHPMailer-6.9.1](https://github.com/PHPMailer/PHPMailer)
 
-Uses [AutoSitemapUpdater-v1.0](https://github.com/YoruKiwi/AutoSitemapUpdater)
+Uses [AutoSitemapUpdater](https://github.com/NoaSecond/AutoSitemapUpdater)
 
-Uses [AutoDeployToFTP-v1.0](https://github.com/YoruKiwi/AutoDeployToFTP)
+Uses [AutoDeployToFTP](https://github.com/NoaSecond/AutoDeployToFTP)
 
 ## Installation
 
