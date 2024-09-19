@@ -14,6 +14,18 @@
 
 
 /* -----GENERAL----- */
+h1 {
+    font-family: "deuterium-variable", sans-serif;
+    font-variation-settings: "wght" 100;
+}
+
+a {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 11pt;
+}
+
 html {
     overflow-x: hidden;
     background-color: var(--JungleGreen);
@@ -25,6 +37,8 @@ body {
     margin: 0;
     transition: 0.25s ease-in-out;
     background-color: var(--JungleGreen);
+    width: 100vw;
+    height: 100vh;
 }
 
 main {
@@ -47,7 +61,7 @@ main>*:last-child {
 }
 
 #logo {
-    width: 200px;
+    width: 120px;
 }
 
 #socialWrap {
@@ -73,7 +87,15 @@ button {
     border-radius: 1000px;
     background-color: var(--OuterSpace);
     color: white;
-    padding: 10px 15px;
+    padding: 15px 25px;
+    font-weight: bold;
+    font-size: 11pt;
+    cursor: pointer;
+    transition: ease-in-out 0.25s;
+}
+
+button:hover {
+    border: rgba(255, 255, 255, 0.75) solid 2px;
 }
 
 a {
