@@ -1,0 +1,10 @@
+#centerWrap {
+    margin: 50px 0;
+    justify-content: flex-start;
+    padding: 0 50px;
+}
+
+#centerWrap a {
+    text-align: start;
+    max-width: inherit;
+}
