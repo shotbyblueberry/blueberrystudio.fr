@@ -75,22 +75,27 @@ main>*:last-child {
     width: 40vw;
 }
 
-#socialWrap {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 50px;
-}
-
-#socialWrap img {
-    width: 30px;
-    margin: 0 10px;
-}
-
-#buttonWrap {
+#centerWrap {
     flex: 1;
     display: flex;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
+}
+
+#centerWrap>h1 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: bold;
+    font-variation-settings: inherit;
+    font-size: 20pt;
+    margin-bottom: 25px;
+}
+
+#centerWrap>a {
+    text-align: center;
+    max-width: 400px;
 }
 
 button {
@@ -103,6 +108,7 @@ button {
     font-size: 11pt;
     cursor: pointer;
     transition: ease-in-out 0.25s;
+    margin-top: 50px;
 }
 
 button:hover {
