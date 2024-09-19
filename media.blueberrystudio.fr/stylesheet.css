@@ -20,7 +20,7 @@
 /* -----GENERAL----- */
 h1 {
     font-family: "deuterium-variable", sans-serif;
-    font-variation-settings: "wght" 100;
+    font-variation-settings: "wght" 400;
 }
 
 a {
@@ -84,13 +84,9 @@ main>*:last-child {
 }
 
 #centerWrap>h1 {
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    font-weight: bold;
-    font-variation-settings: inherit;
     font-size: 20pt;
     margin-bottom: 25px;
+    text-align: center;
 }
 
 #centerWrap>a {
