@@ -1,0 +1,81 @@
+/*----- VARIABLES -----*/
+:root {
+    --SteelTeal: #648999;
+    --Charcoal: #394A59;
+    --OuterSpace: #2D363A;
+    --JungleGreen: #1A1F21;
+    --LightSilver: #E6E6E6;
+}
+
+/*----- SCROLLBAR -----*/
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+
+/* -----GENERAL----- */
+html {
+    overflow-x: hidden;
+    background-color: var(--JungleGreen);
+    color: white;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    transition: 0.25s ease-in-out;
+    background-color: var(--JungleGreen);
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: var(--JungleGreen);
+}
+
+main>*:first-child {
+    margin-top: 50px;
+}
+
+main>*:last-child {
+    margin-bottom: 50px;
+}
+
+#logo {
+    width: 200px;
+}
+
+#socialWrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+#socialWrap img {
+    width: 30px;
+    margin: 0 10px;
+}
+
+#buttonWrap {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+button {
+    border: rgba(255, 255, 255, 0.5) solid 2px;
+    border-radius: 1000px;
+    background-color: var(--OuterSpace);
+    color: white;
+    padding: 10px 15px;
+}
+
+a {
+    color: var(--LightSilver);
+    text-decoration: none;
+}
