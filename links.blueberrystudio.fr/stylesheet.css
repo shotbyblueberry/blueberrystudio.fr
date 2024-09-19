@@ -7,6 +7,10 @@
     --LightSilver: #E6E6E6;
 }
 
+:root {
+    --app-height: 100%;
+}
+
 /*----- SCROLLBAR -----*/
 ::-webkit-scrollbar {
     width: 0px;
@@ -26,6 +30,16 @@ a {
     font-size: 11pt;
 }
 
+html,
+body,
+main {
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    height: var(--app-height);
+}
+
 html {
     overflow-x: hidden;
     background-color: var(--JungleGreen);
@@ -37,14 +51,9 @@ body {
     margin: 0;
     transition: 0.25s ease-in-out;
     background-color: var(--JungleGreen);
-    width: 100vw;
-    height: 100vh;
 }
 
 main {
-    width: 100vw;
-    height: 100vh;
-    height: -webkit-fill-available;
     display: flex;
     flex-direction: column;
     align-items: center;
