@@ -1,0 +1,123 @@
+/*----- VARIABLES -----*/
+:root {
+    --SteelTeal: #648999;
+    --Charcoal: #394A59;
+    --OuterSpace: #2D363A;
+    --JungleGreen: #1A1F21;
+    --LightSilver: #E6E6E6;
+}
+
+:root {
+    --app-height: 100%;
+}
+
+/*----- SCROLLBAR -----*/
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+/* -----GENERAL----- */
+h1, h2, h3, h4, h5, h6 {
+    font-family: "deuterium-variable", sans-serif;
+    font-variation-settings: "wght" 400;
+}
+
+a, p, ul, li {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 11pt;
+}
+
+html,
+body,
+main {
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    height: var(--app-height);
+}
+
+html {
+    overflow-x: hidden;
+    background-color: var(--JungleGreen);
+    color: white;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    transition: 0.25s ease-in-out;
+    background-color: var(--JungleGreen);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: var(--JungleGreen);
+}
+
+main>*:first-child {
+    margin-top: 50px;
+}
+
+main>*:last-child {
+    margin-bottom: 50px;
+}
+
+#logo {
+    min-width: 150px;
+    max-width: 200px;
+    width: 40vw;
+}
+
+#centerWrap {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#centerWrap>h1 {
+    font-size: 20pt;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+#centerWrap>* {
+    max-width: 400px;
+}
+
+#centerWrap>p {
+    text-align: start;
+}
+
+button {
+    border: rgba(255, 255, 255, 0.5) solid 2px;
+    border-radius: 1000px;
+    background-color: var(--OuterSpace);
+    color: white;
+    padding: 15px 25px;
+    font-weight: bold;
+    font-size: 11pt;
+    cursor: pointer;
+    transition: ease-in-out 0.25s;
+    margin-top: 50px;
+}
+
+button:hover {
+    border: rgba(255, 255, 255, 0.75) solid 2px;
+}
+
+a {
+    color: var(--LightSilver);
+    text-decoration: none;
+}
+
+#media {
+    text-align: center;
+}
