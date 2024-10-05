@@ -74,6 +74,10 @@ main>*:last-child {
     width: 40vw;
 }
 
+#followUs {
+    margin-top: 25px;
+}
+
 #socialWrap {
     display: flex;
     align-items: center;
@@ -90,6 +94,10 @@ main>*:last-child {
     flex: 1;
     display: flex;
     align-items: center;
+}
+
+#buttonWrap>a {
+    text-align: center;
 }
 
 button {
