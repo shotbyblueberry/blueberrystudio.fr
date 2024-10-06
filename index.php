@@ -5,6 +5,41 @@
     <?php include $_SERVER['DOCUMENT_ROOT'] . '/components/head.php'; ?>
     <link rel="stylesheet" href="/css/index.css">
     <link rel="stylesheet" href="/css/responsive/index.css">
+    <!-- Schema.org -->
+    <script type="application/ld+json">
+    {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Blueberry Studio",
+    "url": "https://www.blueberrystudio.fr",
+    "logo": "https://www.blueberrystudio.fr/assets/img/brand/blueberry_white.svg",
+    "description": "Blueberry Studio accompagne les artistes dans la production de clips musicaux et la création visuelle.",
+    "sameAs": [
+        "https://www.facebook.com/shotbyblueberrystudio",
+        "https://instagram.com/shotbyblueberry",
+        "https://x.com/ShotByBlueberry"
+    ],
+    "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+33-749644589",
+        "contactType": "Customer Support",
+        "email": "info@blueberrystudio.fr"
+    }
+    }
+    </script>
+    <!-- OpenGraph -->
+    <meta property="og:title" content="Blueberry Studio - Création de Clips Musicaux et Visuels" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.blueberrystudio.fr" />
+    <meta property="og:image" content="https://www.blueberrystudio.fr/assets/img/brand/blueberry_white.svg" />
+    <meta property="og:description" content="Découvrez Blueberry Studio, un partenaire créatif pour les artistes musiciens en matière de production de clips musicaux et de création visuelle." />
+    <meta property="og:site_name" content="Blueberry Studio" />
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Blueberry Studio - Création de Clips Musicaux et Visuels" />
+    <meta name="twitter:description" content="Blueberry Studio accompagne les artistes dans la production de clips musicaux et la création visuelle." />
+    <meta name="twitter:image" content="https://www.blueberrystudio.fr/assets/img/brand/blueberry_white.svg" />
+    <meta name="twitter:site" content="@blueberrystudio" />
 </head>
 
 <body>
