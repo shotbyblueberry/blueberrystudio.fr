@@ -1,0 +1,35 @@
+header {
+    left: 0;
+    right: 0;
+    top: 0;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 50px;
+}
+
+header #logo {
+    height: 30px;
+}
+
+header #menuWrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+header #menuWrapper a {
+    margin: 0 15px;
+}
+
+header #menuWrapper a:first-of-type {
+    margin-left: 0;
+}
+
+header #menuWrapper a:last-of-type {
+    margin-right: 0;
+}
+
+header #active {
+    font-weight: 700;
+}

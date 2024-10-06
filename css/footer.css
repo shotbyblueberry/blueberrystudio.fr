@@ -1,0 +1,23 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--LightSilver);
+    padding: 10px 25px;
+}
+
+footer #center a {
+    color: black;
+
+}
+
+footer #center a {
+    margin: 0 15px;
+}
+
+footer #center a:first-of-type {
+    margin-left: 0;
+}
+
+footer #center a:last-of-type {
+    margin-right: 0;
+}

@@ -1,0 +1,126 @@
+section {
+    display: flex;
+    flex-direction: column;
+    padding: var(--main-padding);
+}
+
+/* Section 1 */
+#section1:first-of-type {
+    height: var(--app-height);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#section1>div {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: flex-end;
+    margin-bottom: 60px;
+}
+
+#showreel {
+    object-fit: cover;
+    width: 100vw;
+    height: var(--app-height);
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+}
+
+#socialWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#socialWrapper img {
+    height: 25px;
+    margin: 0 10px;
+}
+
+#services {
+    align-self: end;
+}
+
+#services h2 {
+    text-align: end;
+    font-size: 12pt;
+}
+
+img#arrow {
+    margin-bottom: 50px;
+    height: 30px;
+}
+
+/* Section 2 */
+#section2 {
+    border-radius: 15px 15px 0 0;
+    background-color: var(--LightSilver);
+}
+
+#section2 h1 {
+    color: black;
+}
+
+#newsWrapper {
+    display: flex;
+    margin-bottom: 50px;
+    overflow-x: scroll;
+    flex-direction: row;
+}
+
+.news {
+    display: flex;
+    align-items: stretch;
+    background-color: var(--JungleGreen);
+    border-radius: 15px;
+    margin: 0 25px;
+    padding: 15px;
+    min-width: 325px;
+    max-width: 325px;
+}
+
+.news:first-of-type {
+    margin-left: 0;
+}
+
+.news:last-of-type {
+    margin-right: 0;
+}
+
+.news>a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: var(--SteelTeal);
+    border-radius: 5px;
+    margin-right: 15px;
+    height: fit-content;
+}
+
+.news>a>img {
+    height: 50px;
+}
+
+.news>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    width: 100%;
+}
+
+.news>div>a {
+    text-wrap: nowrap;
+}
+
+.news>div>a:last-child {
+    align-self: flex-end;
+}
+
+/* Section 3 */

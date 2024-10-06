@@ -12,5 +12,5 @@
 # Git
 .gitattributes
 
-# Debug
-debug.php
+# Security
+.env

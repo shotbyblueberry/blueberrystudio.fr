@@ -1,0 +1,21 @@
+{
+    "sections": {
+        "1": {
+            "services": {
+                "1": "music videos",
+                "2": "visual creation",
+                "3": "promotional content",
+                "4": "artist support"
+            }
+        },
+        "2": {
+            "title": "latest news"
+        },
+        "3": {
+            "title": "recent projects"
+        },
+        "4": {
+            "title": "about"
+        }
+    }
+}

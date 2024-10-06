@@ -1,0 +1,21 @@
+{
+    "sections": {
+        "1": {
+            "services": {
+                "1": "clips musicaux",
+                "2": "création de visuels",
+                "3": "contenu promotionnel",
+                "4": "accompagnement d’artistes"
+            }
+        },
+        "2": {
+            "title": "dernières news"
+        },
+        "3": {
+            "title": "projets récents"
+        },
+        "4": {
+            "title": "à propos"
+        }
+    }
+}

@@ -1,0 +1,73 @@
+/*----- VARIABLES -----*/
+:root {
+    /* Colors */
+    --SteelTeal: #648999;
+    --Charcoal: #394A59;
+    --OuterSpace: #2D363A;
+    --JungleGreen: #1A1F21;
+    --LightSilver: #E6E6E6;
+
+    /* Sizing */
+    --app-height: 100%;
+    --main-padding: 0px 15vw;
+}
+
+/*----- SCROLLBAR -----*/
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+/* -----GENERAL----- */
+* {
+    transition: all 0.25s ease-in-out;
+    text-decoration: none;
+    -webkit-font-smoothing: antialiased;
+}
+
+html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    background-color: var(--JungleGreen);
+    color: white;
+}
+
+body {
+    margin: 0;
+    width: 100vw;
+    min-height: 100vh;
+    color: white;
+}
+
+main {
+    min-height: 100vh;
+    min-height: var(--app-height);
+    color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "deuterium-variable", sans-serif;
+    font-variation-settings: "wght" 400;
+    color: white;
+}
+
+h1 {
+    margin: 50px 0;
+}
+
+a,
+p,
+ul,
+li,
+b,
+span {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 11pt;
+    color: white;
+}
